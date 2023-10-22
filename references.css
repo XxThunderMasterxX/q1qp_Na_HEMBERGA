@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Public+Sans&family=Schibsted+Grotesk&family=Sura&display=swap');
+
+
+
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #253439;
+  color: #fff;
+  padding: 30px;
+  font-family: 'Lilita One', cursive;
+font-family: 'Public Sans', sans-serif;
+font-family: 'Schibsted Grotesk', sans-serif;
+font-family: 'Sura', serif;
+
+}
+
+
+.nav-links {
+  display: flex;
+  
+}
+
+.my-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px; 
+}
+
+.my-link:hover {
+  text-decoration: underline;
+}
+
+
+.content {
+    flex-grow: 1; 
+    padding: 30px;
+}
+
+
+.footer {
+    background-color: #253439;
+    color: #fff;
+    padding: 20px;
+  }

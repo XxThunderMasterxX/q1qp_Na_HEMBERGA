@@ -44,54 +44,54 @@ font-family: 'Sura', serif;
 
 .my-link:hover {
   text-decoration: underline;
+  
 }
 
 
 .content {
-  flex-grow: 1; 
-  padding: 20px;
-  background-image: url(Functions\ and\ Nature\ of\ Communication.png);
-}
-
-.welc{
-
-    text-align: center;
-    font-family: 'Lilita One', cursive;
-font-family: 'Public Sans', sans-serif;
-font-family: 'Schibsted Grotesk', sans-serif;
-font-family: 'Sura', serif;
-color: black
-
-}
-
-.para1{
-
-    color: white;
-    font-family: 'Lilita One', cursive;
-    font-family: 'Public Sans', sans-serif;
-    font-family: 'Schibsted Grotesk', sans-serif;
-    font-family: 'Sura', serif;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid black;
-    background-color: #253439;
-}
-
-.content a{
-    margin-top: 10px;
-    margin-left: 20px;
-    padding: 10px;
-    border: 1px dotted   black;
+    flex-grow: 1; 
+    padding: 20px;
     text-decoration: none;
-    background-color: #95AFD8;
     font-family: 'Lilita One', cursive;
     font-family: 'Public Sans', sans-serif;
     font-family: 'Schibsted Grotesk', sans-serif;
     font-family: 'Sura', serif;
+
+    background-image: url(mainbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.linkss{
+
+    padding: 25px;
+
+}
+
+.linksss{
+
+    text-decoration: none;
+    color: #253439;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'Sura', serif;
+    
+}
+
+.linksss:hover {
+
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
+
 
 .footer {
-  background-color: #253439;
-  color: #fff;
-  padding: 20px;
-}
+    background-color: #253439;
+    color: #fff;
+    padding: 20px;
+  }
